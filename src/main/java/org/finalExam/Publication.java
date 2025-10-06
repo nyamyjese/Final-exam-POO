@@ -7,7 +7,7 @@ import lombok.Getter;
 @Getter
 public class Publication extends Message{
     private Message message;
-
+    private Confidentialite confidentialite;
     public Publication(String id, String prenom, String nom, String mail) {
         super(id, prenom, nom, mail);
     }
